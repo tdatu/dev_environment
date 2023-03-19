@@ -1,4 +1,4 @@
-== DEV ENVIRONMENT ==
+# DEV ENVIRONMENT 
 
 This is a simple dockerizing environment.  Based on Ubuntu 22.04 LTS, it installs the following: 
 1. Python3
@@ -12,7 +12,7 @@ This is a simple dockerizing environment.  Based on Ubuntu 22.04 LTS, it install
 9. DotNet
 
 
-== Steps ==
+## Steps 
 
 1. docker-compose up -d
     a. docker-compose logs -f (to see the process)
@@ -22,7 +22,7 @@ This is a simple dockerizing environment.  Based on Ubuntu 22.04 LTS, it install
 
 
 
-== Note ==
+## Note 
 1. Container will have the mounted /data to the host machine ./data
 2. Adjust the following init.sh to your liking. 
 
